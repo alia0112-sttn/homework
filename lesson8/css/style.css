@@ -1,0 +1,21 @@
+.text {
+    background: rgb(110, 66, 66);
+}
+
+.text2 {
+    color: blueviolet;
+}
+
+.blok {
+    width: 100px;
+    height: 100px;
+    background: rgb(168, 38, 38);
+}
+.element {
+    width:300px;
+    
+    background: rgb(204, 38, 138);
+}
+.list {
+    background: rgb(134, 12, 130);
+}
