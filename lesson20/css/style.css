@@ -1,0 +1,26 @@
+.header {
+    height: 60px;
+    background: #69d252;
+}
+a {
+    color: #333;
+}
+
+.nav {
+    color: #fff;
+}
+
+.blockquote {
+    background: #1ad3da;
+}
+
+.footer  {
+    height: 300px;
+    background: #12af37;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
