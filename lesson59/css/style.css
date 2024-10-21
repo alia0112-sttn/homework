@@ -1,0 +1,45 @@
+body {
+    background-color: #1e1e20;
+}
+
+.wrapper{
+    padding: 50px;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 200px;
+    background-color: #444;
+}
+
+.blok {
+    background-color: #fff;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+
+    
+}
+
+/* ========================== */
+
+.blok {
+    animation: move-blok 1s 3s infinite alternate;
+}
+
+@keyframes move-blok {
+    0%{
+        left: 0px;
+    }
+    30%{
+        background-color: burlywood;
+    }
+    50%{
+        background-color: aquamarine;
+        border-radius: 50%;
+    }
+    100%{
+    left: calc(100% - 200px);
+    }
+}
